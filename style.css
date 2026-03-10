@@ -112,8 +112,8 @@ section h2 {
 }
 
 .project-card:hover {
-  transform: translateY(-8px)scale(1.02);
-  box-shadow: 0 0 25px rgba(181,126,220,0.6);
+  transform: translateY(-6px);
+  box-shadow: 0 10 30px rgba(0,0,0,0.4);
 }
 
 /* CONTACT */
@@ -136,6 +136,9 @@ section h2 {
     color: #b57edc;
     font-weight: bold;
     transition: 0.3s;
+    margin-right: 20px;
+    display: inline-block;
+    margin-top: 8px;
 }
 .project-link:hover {
     color: #d8a4ff;
@@ -174,18 +177,23 @@ footer p {
 }
 
 .project-img{
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
+ display: block;
+ margin: 20px;
+ border-radius: 12px;
 }
 
-#skills{
-  margin-top: 60px;
+.tech{
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+.skills{
+  margin-top: 40px;
 }
 .skills-list{
-  margin-top: 15px;
+  margin-top: 10px;
   opacity: 0.8;
   font-size: 16px;
-
 }
 
